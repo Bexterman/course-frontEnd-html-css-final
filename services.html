@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Services</title>
+	<link rel="stylesheet" href="./resources/style.css">
+</head>
+
+<body>
+	<header>
+		<!-- Logo -->
+		<figure>
+			<a href="index.html">
+				<img src="./images/logo.jpg" alt="Logo">
+			</a>
+			<figcaption>portfolio</figcaption>
+		</figure>
+
+		<!-- Pagina Navigatie -->
+		<nav>
+			<input type="checkbox" id="menu-knop">
+			<div class="overlay"></div>
+			<label for="menu-knop">
+				<span></span>
+			</label>
+
+			<div>
+				<a href="index.html">Home</a>
+				<a href="overmij.html">Over</a>
+				<a href="services.html" class="active">Services
+				</a>
+				<!-- Dropdownmenu -->
+				<div>
+					<button onclick="myFunction()">Blogs &#8681;</button>
+					<div id="myDropdown">
+						<a href="blogs.html">Projects</a>
+						<a href="blogs.html#front-end">Front-end</a>
+						<a href="blogs.html#fotografie">Fotografie</a>
+					</div>
+				</div>
+				<!-- Vervolg Navigatiemenu -->
+				<a href="contact.HTML">Contact</a>
+			</div>
+		</nav>
+	</header>
+
+	<main class="main-services">
+		<header>
+			<h1>Services</h1>
+		</header>
+
+		<section>
+			<header>
+				<h2>Niet lullen maar poetsen</h2>
+			</header>
+
+			<article>
+				<header>
+					<h3>Front-end development</h3>
+				</header>
+
+				<figure>
+					<img src="https://cdn-icons-png.flaticon.com/512/2781/2781987.png" alt="Analyses icon">
+					<figcaption>
+						<span>Analyses</span>
+						<ul>
+							<li>Website in kaart brengen</li>
+							<li>
+								Gebruiksvriendelijker en slimmer ontwerp
+							</li>
+							<li>Business georiënteerd</li>
+						</ul>
+					</figcaption>
+				</figure>
+
+				<figure>
+					<img src="https://cdn-icons-png.flaticon.com/512/3445/3445815.png" alt="E-commerce icon">
+					<figcaption>
+						<span>E-commerce</span>
+						<ul>
+							<li>Payment gateways</li>
+							<li>Gedetailleerde productenlijst</li>
+							<li>Van gebruiker tot klant</li>
+						</ul>
+					</figcaption>
+				</figure>
+
+				<figure>
+					<img src="https://cdn-icons-png.flaticon.com/512/2335/2335265.png" alt="Webdevelopment icon">
+					<figcaption>
+						<span>Ontwikkeling</span>
+						<ul>
+							<li>Moderne designs</li>
+							<li>Geoptimaliseerde performance</li>
+							<li>Geavanceerde zoekopdrachten</li>
+						</ul>
+					</figcaption>
+				</figure>
+
+				<div class="overflowTabel">
+					<table>
+						<caption>
+							Tabel 1: prijslijst front-end development
+						</caption>
+						<thead>
+							<tr>
+								<th colspan="2"><small>* = meest gekozen</small></th>
+								<th scope="colgroup">Analyse</th>
+								<th scope="colgroup">E-Commerce</th>
+								<th scope="colgroup">Ontwikkeling</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th rowspan="2" scope="rowgroup">Paketten</th>
+								<td>Normaal</td>
+								<td>&#8364;165,-</td>
+								<td><span>* &#8364;245,-</span></td>
+								<td><span>* &#8364;350,-</span></td>
+							</tr>
+							<tr>
+								<td>Uitgebreid</td>
+								<td><span>* &#8364;255,-</span></td>
+								<td>&#8364;295,-</td>
+								<td>&#8364;420,-</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<p>
+					Meer informatie nodig?
+					<a class="link" href="contact.html#contact">Contacteer mij</a>
+				</p>
+			</article>
+
+			<article>
+				<header>
+					<h3>
+						<span id="cursussen"></span>
+						Coaching, mentoring en cursussen
+					</h3>
+				</header>
+
+				<figure>
+					<img src="https://cdn-icons-png.flaticon.com/512/3474/3474934.png" alt="Student coaching icon">
+					<figcaption>
+						<span>Coaching</span>
+						<ul>
+							<li>Gedeeltelijk schooljaar</li>
+							<li>Trimester</li>
+							<li>Semester</li>
+						</ul>
+					</figcaption>
+				</figure>
+
+				<figure>
+					<img src="https://cdn-icons-png.flaticon.com/512/2838/2838126.png" alt="Mentor begeleiding icon">
+					<figcaption>
+						<span>Mentoring</span>
+						<ul>
+							<li>Volledig schooljaar</li>
+							<li>Compact</li>
+							<li>Intensief</li>
+						</ul>
+					</figcaption>
+				</figure>
+
+				<figure>
+					<img src="https://cdn-icons-png.flaticon.com/512/1612/1612962.png" alt="Front-end cursus icon">
+					<figcaption>
+						<span>Front-end cursus</span>
+						<small>Let op! Dit zijn groepslessen</small>
+						<ul>
+							<li>Startmoment in maart</li>
+							<li>HTML/CSS</li>
+							<li>JavaScript</li>
+						</ul>
+					</figcaption>
+				</figure>
+
+				<div class="overflowTabel">
+					<table>
+						<caption>
+							Tabel 2: prijslijst coaching, mentoring en cursussen
+						</caption>
+						<thead>
+							<tr>
+								<th colspan="2"><small>* = meest gekozen</small></th>
+								<th colspan="2" scope="colgroup">Coaching</th>
+								<th scope="colgroup">Mentoring</th>
+								<th colspan="2" scope="colgroup">Front-end Cursus</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th rowspan="3" scope="rowgroup">Paketten</th>
+								<td></td>
+								<td>Trimester</td>
+								<td>Semester</td>
+								<td>Schooljaar</td>
+								<td>HTML/CSS</td>
+								<td>JavaScript</td>
+							</tr>
+							<tr>
+								<td>Compact</td>
+								<td>&#8364;125,-</td>
+								<td>&#8364;175,-</td>
+								<td><span>* &#8364;325,-</span></td>
+								<td>&#8364;1150,-</td>
+								<td>&#8364;1250,-</td>
+							</tr>
+							<tr>
+								<td>Intensief</td>
+								<td>&#8364;175,-</td>
+								<td><span>* &#8364;225,-</span></td>
+								<td>&#8364;450,-</td>
+								<td colspan="2"><span>* &#8364;1675,-</span></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<p>
+					Meer informatie nodig?
+					<a class="link" href="contact.html#contact">Contacteer mij</a>
+				</p>
+			</article>
+
+			<article>
+				<header>
+					<h3>
+						<span id="peercoaching"></span>
+						Peer coaching
+					</h3>
+				</header>
+				<figure>
+					<img src="https://cdn-icons-png.flaticon.com/512/3234/3234971.png" alt="Peer2Peer Basic icon">
+					<figcaption>
+						<span>Basic</span>
+						<ul>
+							<li>Korte ontmoetingen</li>
+							<li>Duidelijke vraagstukken</li>
+							<li>Studenten en junior ontwikkelaars</li>
+						</ul>
+					</figcaption>
+				</figure>
+
+				<figure>
+					<img src="https://cdn-icons-png.flaticon.com/512/535/535340.png" alt="Peer2Peer Professionals icon">
+					<figcaption>
+						<span>Professionals</span>
+						<ul>
+							<li>Lange termijn samenwerkingen</li>
+							<li>Complexe vraagstukken</li>
+							<li>Medium tot senior werkervaring</li>
+						</ul>
+					</figcaption>
+				</figure>
+
+				<div class="overflowTabel">
+					<table>
+						<caption>
+							Tabel 3: prijslijst peer coaching
+						</caption>
+						<thead>
+							<tr>
+								<th colspan="2"><small>Korting vanaf de 2e keer!</small></th>
+								<th scope="colgroup">First Peer</th>
+								<th scope="colgroup">Toffe Peer<small>15% korting</small></th>
+								<th scope="colgroup">Opper Peer<small>25% korting</small></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th rowspan="2" scope="rowgroup">Pakketten</th>
+								<td>Basic</td>
+								<td>&#8364;25,-</td>
+								<td>&#8364;21,25</td>
+								<td>&#8364;18,75</td>
+							</tr>
+							<tr>
+								<td>Professional</td>
+								<td>&#8364;80,-</td>
+								<td>&#8364;68,-</td>
+								<td>&#8364;60,-</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<p>
+					Meer informatie nodig?
+					<a class="link" href="contact.html#contact">Contacteer mij</a>
+				</p>
+			</article>
+		</section>
+	</main>
+
+	<footer>
+		<small>Designed / Developed by Ron Bexterman © 2022</small>
+	</footer>
+
+	<script src="./resources/index.js"></script>
+</body>
+
+</html>

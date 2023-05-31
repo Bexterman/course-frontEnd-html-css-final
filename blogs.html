@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+    <link rel="stylesheet" href="./resources/style.css">
+</head>
+
+<body>
+    <header>
+        <!-- Logo -->
+        <figure>
+            <a href="index.html">
+                <img src="./images/logo.jpg" alt="Logo">
+            </a>
+            <figcaption>portfolio</figcaption>
+        </figure>
+
+        <!-- Pagina Navigatie -->
+        <nav>
+            <input type="checkbox" id="menu-knop">
+            <div class="overlay"></div>
+            <label for="menu-knop">
+                <span></span>
+            </label>
+
+            <div>
+                <a href="index.html">Home</a>
+                <a href="overmij.html">Over</a>
+                <a href="services.html">Services</a>
+                <!-- Dropdownmenu -->
+                <div>
+                    <button class="active" onclick="myFunction()" id="dubbelKlik">
+                        Blogs &#8681;
+                    </button>
+                    <div id="myDropdown">
+                        <a href="blogs.html">Projects</a>
+                        <a href="blogs.html#front-end">Front-end</a>
+                        <a href="blogs.html#fotografie">Fotografie</a>
+                    </div>
+                </div>
+                <!-- Vervolg Navigatiemenu -->
+                <a href="contact.HTML">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-blogs">
+        <header>
+            <h1>Blogs</h1>
+        </header>
+
+        <section>
+            <h2>Dat is als kakke zonder douwe</h2>
+            <article>
+                <header>
+                    <h3><span id="projects"></span>Projects</h3>
+
+                </header>
+
+                <article>
+                    <header>
+                        <h4>Microsoft</h4>
+                        <small>
+                            13 oktober 2022 | Webdevelopment
+                            <br>by Ron Bexterman
+                        </small>
+                    </header>
+
+                    <figure>
+                        <a href="./images/blogs.html/microsoft_1920.jpg">
+                            <img src="./images/blogs.html/microsoft_640.jpg"
+                                alt="Een afbeelding van een laptop met daarachter een scherm die de Microsoft cursus laten zien."
+                                srcset="./images/blogs.html/microsoft_640.jpg 1x,
+                                    ./images/blogs.html/microsoft_1280.jpg 2x,
+                                    ./images/blogs.html/microsoft_1920.jpg 3x">
+                        </a>
+                    </figure>
+
+                    <p>
+                        Microsoft biedt via haar website een verscheidenheid aan online cursussen aan, waaronder
+                        cursussen over technologie, zaken en persoonlijke
+
+                        ontwikkeling. Deze cursussen zijn bedoeld om
+
+                        individuen te helpen nieuwe vaardigheden te ontwikkelen en hun carrière vooruit te helpen.<span
+                            id="puntjes">..</span>
+                        <span id="meer">
+                            <br>
+                            <br>
+                            Een cursuswebsite is een website die online leermogelijkheden biedt. Het webdesign van een
+                            cursuswebsite moet gericht zijn op het zo boeiend en interactief mogelijk maken van de
+                            leerervaring. Dit betekent het gebruik van een schone en georganiseerde lay-out, duidelijke
+                            en beknopte taal en multimedia-inhoud zoals video's en quizzen. Een cursuswebsite moet ook
+                            een gebruiksvriendelijk navigatiemenu, een zoekfunctie en gemakkelijk vindbare informatie
+                            over het cursusaanbod en het inschrijvingsproces bevatten.
+                            <br>
+                            <br>
+                            Over het algemeen is het webontwerp van de Microsoft-cursuswebsite ontworpen om de
+                            leerervaring zo gemakkelijk en effectief mogelijk te maken. Door een gebruiksvriendelijke
+                            interface, boeiende inhoud en interactieve elementen te bieden, helpt de website leerlingen
+                            nieuwe vaardigheden te ontwikkelen en hun carrière vooruit te helpen.
+                            <br>
+                            <br>
+                            Het webdesign van de Microsoft-cursuswebsite is gericht op het bieden van een
+                            gebruiksvriendelijke en boeiende leerervaring. De website heeft een duidelijke en
+                            overzichtelijke lay-out, met duidelijke en beknopte taal en gebruiksvriendelijke
+                            navigatiemenu's. Cursussen zijn georganiseerd in categorieën en subcategorieën, waardoor
+                            gebruikers gemakkelijk de cursussen kunnen vinden die het meest relevant zijn voor hun
+                            behoeften.
+                        </span>
+                    </p>
+                    <button onclick="blogsMeerLezen()" id="blogsBtn">Klik hier om meer te lezen</button>
+                </article>
+
+                <article>
+                    <header>
+                        <h4>Pinterest</h4>
+                        <small>
+                            5 juni 2022 | Webdevelopment
+                            <br>by Ron Bexterman
+                        </small>
+                    </header>
+
+                    <figure>
+                        <a href="./images/blogs.html/pinterest_1920.jpg">
+                            <img src="./images/blogs.html/pinterest_640.jpg"
+                                alt="Een afbeelding van een laptop met op scherm de nieuwe layout van Pinterest" srcset="./images/blogs.html/pinterest_640.jpg 1x,
+                                    ./images/blogs.html/pinterest_1280.jpg 2x,
+                                    ./images/blogs.html/pinterest_1920.jpg 3x">
+                        </a>
+                    </figure>
+
+                    <p>
+                        Met een galeriecollectie op een website kun je een collectie kunst of andere items
+                        tentoonstellen. In het geval van Pinterest betekend dat
+                        eigenlijk alle soorten afbeeldingen die met elkaar te maken hebben. Het webdesign van een
+                        galeriecollectiewebsite moet erop gericht
+
+                        zijn de collectie zo goed mogelijk te presenteren.<span id="puntjesFoto">..</span>
+                        <span id="meerFoto"> Dit betekent het gebruik van afbeeldingen met een hoge resolutie, een
+                            schone en overzichtelijke lay-out en een gebruiksvriendelijk navigatiemenu. Een website met
+                            een galeriecollectie moet ook gemakkelijk vindbare informatie over de collectie, de artiest
+                            en aankomende tentoonstellingen of evenementen bevatten.
+                            <br>
+                            <br>
+                            Naast het weergeven van de items in de collectie, kan een galeriecollectiewebsite ook
+                            informatie bevatten over de geschiedenis en het belang van de collectie, evenals relevante
+                            achtergrondinformatie over de kunstenaar of makers. De website kan ook informatie bevatten
+                            over het kopen van items uit de collectie, indien van toepassing.
+                            <br>
+                            <br>
+                            Over het algemeen moet het webontwerp van een website voor een galeriecollectie gericht zijn
+                            op het bieden van een boeiende en informatieve ervaring voor gebruikers. Door de items in de
+                            collectie onder de aandacht te brengen en relevante informatie te verstrekken, kan een
+                            galeriecollectiewebsite helpen om bezoekers te onderwijzen en te inspireren.
+
+                        </span>
+                    </p>
+                    <button onclick="blogsMeerLezenFoto()" id="blogsBtnFoto">Klik hier om meer te lezen</button>
+                </article>
+
+                <article>
+                    <header>
+                        <h4> Formule 1</h4>
+                        <small>
+                            30 december 2022 | Webanalyse
+                            <br>by Ron Bexterman
+                        </small>
+                    </header>
+
+                    <figure>
+                        <a href="./images/blogs.html/formule1_1920.jpg">
+                            <img src="./images/blogs.html/formule1_640.jpg"
+                                alt="Een afbeelding van een laptop met op scherm de nieuwe layout van Pinterest" srcset="./images/blogs.html/formule1_640.jpg 1x,
+                                    ./images/blogs.html/formule1_1280.jpg 2x,
+                                    ./images/blogs.html/formule1_1920.jpg 3x">
+                        </a>
+                    </figure>
+
+                    <p>
+                        Niet de auto, maar wel de website. Er zijn verschillende stappen die kunnen worden genomen om
+                        een website te analyseren en de functies
+                        ervan te verbeteren.
+
+                        Voordat de website wordt geanalyseerd, is het belangrijk om de doelen en doelstellingen van de
+                        website duidelijk te definiëren.<span id="puntjesAnalyse">..</span>
+                        <span id="meerAnalyse">
+                            Dit helpt ervoor te zorgen dat de analyse gericht is op de belangrijkste gebieden die het
+                            belangrijkst zijn voor het succes van de website.
+                            <br>
+                            <br>
+                            Voor deze website is er een gebruikersonderzoek uitgevoerd. Een gebruikersonderzoek kan
+                            helpen om de behoeften en voorkeuren van de doelgroep van de website te identificeren. Dit
+                            kan worden gedaan door middel van enquêtes, focusgroepen of andere methoden om
+                            gebruikersfeedback te verzamelen.
+                            <br>
+                            <br>
+                            Ook heb ik de prestaties van de website geanalyseerd, zoals het websiteverkeer en
+                            gebruikersgedrag, het meten van conversieratio's en het testen van de laadsnelheid van de
+                            website en andere technische aspecten omvatten.
+                            <br>
+                            <br>
+                            Verder zocht ik naar verbeterpunten op basis van de resultaten van de analyse. Dit kan het
+                            verbeteren van de navigatie, lay-out, inhoud of andere elementen van de website omvatten.
+                            <br>
+                            <br>
+                            Zodra de verbeterpunten zijn geïdentificeerd, is het belangrijk om samen met de
+                            opdrachtgever een plan te ontwikkelen om deze problemen aan te pakken. Dit kan inhouden dat
+                            er wijzigingen worden aangebracht in het ontwerp, de inhoud of de functionaliteit van de
+                            website. Het is ook belangrijk om de resultaten van deze wijzigingen te monitoren om ervoor
+                            te zorgen dat ze effectief zijn in het verbeteren van de prestaties van de website.
+                        </span>
+                    </p>
+                    <button onclick="blogsMeerLezenAnalyse()" id="blogsBtnAnalyse">Klik hier om meer te lezen</button>
+                </article>
+            </article>
+            <article>
+                <header>
+                    <h3><span id="front-end"></span>Front-end</h3>
+
+                </header>
+
+
+
+                <article>
+                    <header>
+                        <h4>Uitgelegd: semantiek</h4>
+                        <small>
+                            30 augustus 2022 | HTML
+                            <br>by Ron Bexterman
+                        </small>
+                    </header>
+
+                    <p>
+                        HTML-semantische elementen zijn HTML-tags die worden gebruikt om de betekenis en structuur van
+                        de inhoud op een webpagina te definiëren. Deze elementen bieden aanvullende informatie over de
+                        inhoud, die kan worden geïnterpreteerd door webbrowsers, zoekmachines en andere tools
+                        <span id="puntjesFeSema">...</span>
+                        <span id="meerFeSema">
+                            .
+                            <br>
+                            <br>
+                            De tag &lt;p&gt; wordt bijvoorbeeld gebruikt om een alinea met tekst te definiëren. Dit
+                            vertelt de browser dat de inhoud binnen de &lt;p&gt;-tag een alinea is en als zodanig moet
+                            worden behandeld bij het weergeven van de pagina. Evenzo wordt de &lt;h1&gt;-tag gebruikt om
+                            een kop te definiëren, de &lt;ul&gt;-tag wordt gebruikt om een ongeordende lijst te
+                            definiëren en de &lt;img&gt;-tag wordt gebruikt om een afbeelding te definiëren.
+                            <br>
+                            <br>
+                            Het gebruik van semantische HTML-elementen kan de toegankelijkheid, zoekmachineoptimalisatie
+                            (SEO) en algehele prestaties van een website verbeteren. Het maakt de inhoud op de pagina
+                            gemakkelijker voor webbrowsers, zoekmachines en andere hulpmiddelen om te begrijpen en te
+                            verwerken, wat de gebruikerservaring kan verbeteren.
+                            <br>
+                            <br>
+                            Wanneer een zoekmachine bijvoorbeeld een webpagina crawlt, kan deze de semantische
+                            HTML-elementen gebruiken om de structuur en betekenis van de inhoud op de pagina te
+                            begrijpen. Dit kan de zoekmachine helpen om de pagina nauwkeuriger te indexeren en de
+                            positie in de zoekresultaten te verbeteren.
+                            <br>
+                            <br>
+                            Over het algemeen vormen HTML-semantische elementen een belangrijk onderdeel van webontwerp
+                            en -ontwikkeling, en ze kunnen helpen om de prestaties en toegankelijkheid van een website
+                            te verbeteren.
+                        </span>
+                    </p>
+                    <button onclick="blogsMeerLezenFeSema()" id="blogsBtnFeSema">Klik hier om meer te lezen</button>
+                </article>
+
+                <article>
+                    <header>
+                        <h4>Uitgelegd: JavaScript</h4>
+                        <small>
+                            13 juli 2022 | JavaScript
+                            <br>by Ron Bexterman
+                        </small>
+                    </header>
+
+                    <p>
+                        JavaScript is een programmeertaal die vaak wordt gebruikt om interactiviteit en dynamische
+                        functionaliteit aan websites toe te voegen. Het is een client-side taal, wat betekent dat het
+                        wordt uitgevoerd door de webbrowser van de gebruiker in plaats van op de server
+                        <span id="puntjesFeJS">...</span>
+                        <span id="meerFeJS">
+                            .
+                            <br>
+                            <br>
+                            Met JavaScript kunnen ontwikkelaars complexe, interactieve elementen op webpagina's maken,
+                            zoals vervolgkeuzemenu's, formuliervalidatie en real-time updates. Het wordt vaak gebruikt
+                            in combinatie met HTML en CSS om moderne, dynamische websites te maken.
+                            <br>
+                            <br>
+                            Een van de belangrijkste kenmerken van JavaScript is dat het een objectgeoriënteerde taal
+                            is. Dit betekent dat ontwikkelaars hiermee objecten kunnen maken en manipuleren. Dit zijn
+                            herbruikbare codeblokken die kunnen worden gebruikt om concepten uit de echte wereld weer te
+                            geven.
+                            <br>
+                            <br>
+                            Een ontwikkelaar kan bijvoorbeeld een object "Auto" maken dat eigenschappen bevat zoals het
+                            merk, model en jaar, evenals methoden zoals "start" en "stop" om de beweging van de auto te
+                            regelen. Dit object kan vervolgens in de code worden gebruikt om meerdere auto-objecten te
+                            maken met verschillende eigenschappen en gedragingen.
+                        </span>
+                    </p>
+                    <button onclick="blogsMeerLezenFeJS()" id="blogsBtnFeJS">Klik hier om meer te lezen</button>
+                </article>
+
+                <article>
+                    <header>
+                        <h4>Uitgelegd: positioning</h4>
+                        <small>
+                            20 november 2021 | CSS
+                            <br>by Ron Bexterman
+                        </small>
+                    </header>
+
+                    <p>
+                        Position is een belangrijk onderdeel van CSS en kan worden gebruikt om complexe en dynamische
+                        lay-outs op een webpagina te maken. Hiermee kunt u elementen nauwkeurig positioneren en bepalen
+                        hoe ze zich gedragen wanneer de gebruiker door de pagina scrolt
+                        <span id="puntjesFePoPo">...</span>
+                        <span id="meerFePoPo">
+                            .
+                            <br>
+                            <br>
+                            Er zijn vier mogelijke waarden voor de eigenschap position: statisch, relatief, absoluut en
+                            sticky (vast).
+                            <br>
+                            <br>
+                            De statische waarde is de standaardpositie voor alle elementen. Een element met een
+                            statische positie wordt gepositioneerd volgens de normale stroom van het document en wordt
+                            niet beïnvloed door de eigenschap position.
+                            <br>
+                            <br>
+                            Met de relatieve waarde kunt u een element positioneren ten opzichte van zijn normale
+                            positie in de documentenstroom. Dit betekent dat u de eigenschappen boven, onder, links en
+                            rechts kunt gebruiken om het element te
+                            <br>
+                            <br>
+                            Met de absolute waarde kunt u een element positioneren ten opzichte van het bovenliggende
+                            element, of ten opzichte van de pagina zelf als deze geen bovenliggend element heeft. Dit
+                            betekent dat u de eigenschappen boven, onder, links en rechts kunt gebruiken om het element
+                            precies daar te plaatsen waar u het op de pagina wilt hebben.
+                            <br>
+                            <br>
+                            De sticky(vaste) waarde is vergelijkbaar met de absolute waarde, maar fixeert het element op
+                            zijn plaats op de pagina, zelfs als de gebruiker door de pagina scrolt. Dit betekent dat het
+                            element op dezelfde positie op de pagina blijft staan, zelfs als de rest van de inhoud
+                            beweegt.
+                        </span>
+                    </p>
+                    <button onclick="blogsMeerLezenFePoPo()" id="blogsBtnFePoPo">Klik hier om meer te lezen</button>
+                </article>
+            </article>
+            <article>
+                <header>
+                    <h3><span id="fotografie"></span>Fotografie</h3>
+
+                </header>
+
+                <article>
+                    <header>
+                        <h4>Dagje wandelen in Rotterdam</h4>
+                        <small>
+                            20 september 2022 | Fotografie
+                            <br>by Ron Bexterman
+                        </small>
+                    </header>
+
+
+                    <figure>
+                        <a href="./images/blogs.html/rotterdam1_1920.jpg">
+                            <img class="slideShow" src="./images/blogs.html/rotterdam1_640.jpg"
+                                alt="Een afbeelding de Maas en De Zwaan (de Erasmusbrug)." srcset="./images/blogs.html/rotterdam1_640.jpg 1x,
+                                    ./images/blogs.html/rotterdam1_1280.jpg 2x,
+                                    ./images/blogs.html/rotterdam1_1920.jpg 3x">
+                        </a>
+
+                        <a href="./images/blogs.html/rotterdam2_1920.jpg">
+                            <img class="slideShow" src="./images/blogs.html/rotterdam2_640.jpg"
+                                alt="Een afbeelding van binnenin De Markthal." srcset="./images/blogs.html/rotterdam2_640.jpg 1x,
+                                    ./images/blogs.html/rotterdam2_1280.jpg 2x,
+                                    ./images/blogs.html/rotterdam2_1920.jpg 3x">
+                        </a>
+
+                        <a href="./images/blogs.html/rotterdam3_1920.jpg">
+                            <img class="slideShow" src="./images/blogs.html/rotterdam3_640.jpg"
+                                alt="Een afbeelding van het Stationsplein" srcset="./images/blogs.html/rotterdam3_640.jpg 1x,
+                                    ./images/blogs.html/rotterdam3_1280.jpg 2x,
+                                    ./images/blogs.html/rotterdam3_1920.jpg 3x">
+                        </a>
+
+                        <a href="./images/blogs.html/rotterdam4_1920.jpg">
+                            <img class="slideShow" src="./images/blogs.html/rotterdam4_640.jpg"
+                                alt="Een afbeelding van de Kubuswoningen." srcset="./images/blogs.html/rotterdam4_640.jpg 1x,
+                                    ./images/blogs.html/rotterdam4_1280.jpg 2x,
+                                    ./images/blogs.html/rotterdam4_1920.jpg 3x">
+                        </a>
+                        <button class="btnLinks" onclick="plusFig(-1)">&lt;</button>
+                        <button class="btnRechts" onclick="plusFig(1)">&gt;</button>
+                    </figure>
+                </article>
+
+                <article>
+                    <header>
+                        <h4>Een frisse neus in de natuur halen</h4>
+                        <small>
+                            17 mei 2022 | De Veluwe
+                            <br>by Ron Bexterman
+                        </small>
+                    </header>
+
+                    <figure>
+                        <a href="./images/blogs.html/veluwe1_1920.jpg">
+                            <img class="slideShowVeluwe" src="./images/blogs.html/veluwe1_640.jpg"
+                                alt="Een afbeelding van een vogeltje op een paal." srcset="./images/blogs.html/veluwe1_640.jpg 1x,
+                                    ./images/blogs.html/veluwe1_1280.jpg 2x,
+                                    ./images/blogs.html/veluwe1_1920.jpg 3x">
+                        </a>
+
+                        <a href="./images/blogs.html/veluwe2_1920.jpg">
+                            <img class="slideShowVeluwe" src="./images/blogs.html/veluwe2_640.jpg"
+                                alt="Een afbeelding van een zwijntje die aan het grazen is." srcset="./images/blogs.html/veluwe2_640.jpg 1x,
+                                    ./images/blogs.html/veluwe2_1280.jpg 2x,
+                                    ./images/blogs.html/veluwe2_1920.jpg 3x">
+                        </a>
+
+                        <a href="./images/blogs.html/veluwe3_1920.jpg">
+                            <img class="slideShowVeluwe" src="./images/blogs.html/veluwe3_640.jpg"
+                                alt="Een afbeelding van een grazende hert." srcset="./images/blogs.html/veluwe3_640.jpg 1x,
+                                    ./images/blogs.html/veluwe3_1280.jpg 2x,
+                                    ./images/blogs.html/veluwe3_1920.jpg 3x">
+                        </a>
+
+
+                        <a href="./images/blogs.html/veluwe4_1920.jpg">
+                            <img class="slideShowVeluwe" src="./images/blogs.html/veluwe4_640.jpg"
+                                alt="Een frontale afbeelding van een bison." srcset="./images/blogs.html/veluwe4_640.jpg 1x,
+                                    ./images/blogs.html/veluwe4_1280.jpg 2x,
+                                    ./images/blogs.html/veluwe4_1920.jpg 3x">
+                        </a>
+
+                        <button class="btnLinks" onclick="plusFigVeluwe(-1)">&lt;</button>
+                        <button class="btnRechts" onclick="plusFigVeluwe(1)">&gt;</button>
+                    </figure>
+                </article>
+
+                <article>
+                    <header>
+                        <h4>Aan het strand in Scheveningen</h4>
+                        <small>
+                            11 maart 2022 | Scheveningen
+                            <br>by Ron Bexterman
+                        </small>
+                    </header>
+
+                    <figure>
+                        <a href="./images/blogs.html/Scheveningen1_1920.jpg">
+                            <img class="slideShowSchev" src="./images/blogs.html/Scheveningen1_640.jpg"
+                                alt="Een afbeelding de pier met op de achtergrond een draaimolen." srcset="./images/blogs.html/Scheveningen1_640.jpg 1x,
+                                    ./images/blogs.html/Scheveningen1_1280.jpg 2x,
+                                    ./images/blogs.html/Scheveningen1_1920.jpg 3x">
+                        </a>
+
+                        <a href="./images/blogs.html/Scheveningen2_1920.jpg">
+                            <img class="slideShowSchev" src="./images/blogs.html/Scheveningen2_640.jpg"
+                                alt="Een afbeelding van Grand Hotel het Kurhaus - foto genomen vanaf het strand."
+                                srcset="./images/blogs.html/Scheveningen2_640.jpg 1x,
+                                    ./images/blogs.html/Scheveningen2_1280.jpg 2x,
+                                    ./images/blogs.html/Scheveningen2_1920.jpg 3x">
+                        </a>
+
+                        <a href="./images/blogs.html/Scheveningen3_1920.jpg">
+                            <img class="slideShowSchev" src="./images/blogs.html/Scheveningen3_640.jpg"
+                                alt="Een afbeelding van onder de pier waarbij de pilaren in regenboogkleuren zijn geverfd."
+                                srcset="./images/blogs.html/Scheveningen3_640.jpg 1x,
+                                    ./images/blogs.html/Scheveningen3_1280.jpg 2x,
+                                    ./images/blogs.html/Scheveningen3_1920.jpg 3x">
+                        </a>
+
+                        <a href="./images/blogs.html/Scheveningen4_1920.jpg">
+                            <img class="slideShowSchev" src="./images/blogs.html/Scheveningen4_640.jpg"
+                                alt="Een afbeelding van een surfster die naar de zee kijkt terwijl zij op haar surfplank op het strand zit."
+                                srcset="./images/blogs.html/Scheveningen4_640.jpg 1x,
+                                    ./images/blogs.html/Scheveningen4_1280.jpg 2x,
+                                    ./images/blogs.html/Scheveningen4_1920.jpg 3x">
+                        </a>
+
+                        <button class="btnLinks" onclick="plusFigSchev(-1)">&lt;</button>
+                        <button class="btnRechts" onclick="plusFigSchev(1)">&gt;</button>
+                    </figure>
+                </article>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <small>Designed / Developed by Ron Bexterman © 2022</small>
+    </footer>
+
+    <script src="./resources/index.js"></script>
+</body>
+
+</html>

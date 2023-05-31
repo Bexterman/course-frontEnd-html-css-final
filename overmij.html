@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Over mij</title>
+	<link rel="stylesheet" href="./resources/style.css">
+</head>
+
+<body>
+	<header>
+		<!-- Logo -->
+		<figure>
+			<a href="index.html">
+				<img src="./images/logo.jpg" alt="Logo">
+			</a>
+			<figcaption>portfolio</figcaption>
+		</figure>
+
+		<!-- Pagina Navigatie -->
+		<nav>
+			<input type="checkbox" id="menu-knop">
+			<div class="overlay"></div>
+			<label for="menu-knop">
+				<span></span>
+			</label>
+
+			<div>
+				<a href="index.html">Home</a>
+				<a href="overmij.html" class="active">Over
+				</a>
+				<a href="services.html">Services</a>
+				<!-- Dropdownmenu -->
+				<div>
+					<button onclick="myFunction()">Blogs &#8681;</button>
+					<div id="myDropdown">
+						<a href="blogs.html">Projects</a>
+						<a href="blogs.html#front-end">Front-end</a>
+						<a href="blogs.html#fotografie">Fotografie</a>
+					</div>
+				</div>
+				<!-- Vervolg Navigatiemenu -->
+				<a href="contact.HTML">Contact</a>
+			</div>
+		</nav>
+	</header>
+
+	<main class="main-over-mij">
+		<header>
+			<h1>Hallo!</h1>
+		</header>
+
+		<section>
+			<header>
+				<h2>Even voorstellen</h2>
+			</header>
+			<article>
+				<h3>Mijn reis</h3>
+
+				<p>
+					Anderen omschrijven mij als zelfverzekerd, van nature
+					nieuwsgierig en voortdurend bezig met het verbeteren van
+					vaardigheden - één ontwerpprobleem tegelijk.
+				</p>
+
+				<span>Wat ik doe</span>
+				<ul>
+					<li>
+						op afstand werken <br>voor bedrijven
+						<img src="https://cdn-icons-png.flaticon.com/512/6393/6393012.png"
+							alt="Icon werken op afstand.">
+					</li>
+					<li>
+						advies geven <br>aan startups
+						<img src="https://cdn-icons-png.flaticon.com/512/8915/8915767.png" alt="Icon advies geven.">
+					</li>
+					<li>
+						samenwerken met <br>getalenteerde mensen
+						<img src="https://cdn-icons-png.flaticon.com/512/2967/2967658.png" alt="Icon samenwerking.">
+					</li>
+					<li>
+						digitale producten <br>creëren
+						<img src="https://cdn-icons-png.flaticon.com/512/6702/6702801.png"
+							alt="Icon digitale producten.">
+					</li>
+					<li>
+						voor zowel zakelijk als <br>consument
+						<br>
+						<img src="https://cdn-icons-png.flaticon.com/512/1283/1283342.png" alt="Icon zakelijk.">
+						<img src="https://cdn-icons-png.flaticon.com/512/2760/2760934.png" alt="Icon consument.">
+					</li>
+				</ul>
+
+				<span>Socials</span>
+				<ul>
+					<li>
+						<a href="https://github.com/" target="_blank">
+							<img src="https://cdn-icons-png.flaticon.com/512/3291/3291695.png" alt="Github icon">
+						</a>
+					</li>
+
+					<li>
+						<a href="https://www.instagram.com/" target="_blank">
+							<img src="https://cdn-icons-png.flaticon.com/512/1384/1384047.png" alt="Instagram icon">
+						</a>
+					</li>
+
+					<li>
+						<a href="https://www.linkedin.com/" target="_blank">
+							<img src="https://cdn-icons-png.flaticon.com/512/1384/1384046.png" alt="Linkedin icon"></a>
+					</li>
+				</ul>
+			</article>
+
+			<article>
+				<header>
+					<h3>Skills</h3>
+				</header>
+				<small>Tik op een vak / Beweeg muis over een vak</small>
+				<ul>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>JavaScript</li>
+					<li>JQuery</li>
+					<li>Vue.js</li>
+					<li>PHP</li>
+					<li>MySQL</li>
+					<li>Git</li>
+				</ul>
+			</article>
+
+			<article>
+				<header>
+					<h3>Peer Coaching</h3>
+				</header>
+
+				<p>
+					Met mensen werken vind ik ontzettend leuk. Daarom help
+					ik niet alleen beginnende front-end developers, maar
+					ook gevorderde ontwikkelaars die vastlopen
+					in het vakgebied.
+				</p>
+				<aside>
+					<p>
+						<span>Wat is peer coaching?</span>
+						<br>Peer coaching is een proces waarbij twee of
+						meer professionals met elkaar samenwerken en
+						reflecteren op de praktijk, nieuwe vaardigheden
+						ontwikkelen, ideeën uitwisselen en zowel mét als van
+						elkaar leren.
+						<br>
+						<br>
+						<span>Heeft u interesse in peer coaching?</span>
+						<br>Klik dan op
+						<span class="link"><a href="services.html#peercoaching">deze link</a></span>
+						voor meer informatie.
+					</p>
+				</aside>
+
+				<div class="overflowTabel">
+					<table>
+						<caption>
+							Tabel 1: peer statistieken
+						</caption>
+						<thead>
+							<tr>
+								<th><small>* middels een vragenlijst</small></th>
+								<th scope="colgroup">Aantal</th>
+								<th scope="colgroup">Tijd</th>
+								<th scope="colgroup">* Cijfer</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th>Studenten gecoacht</th>
+								<td>49 +</td>
+								<td>98u +</td>
+								<td><span>7,5</span></td>
+							</tr>
+							<tr>
+								<th>Mentor begeleidingen</th>
+								<td>4 +</td>
+								<td>360u +</td>
+								<td><span>7,2</span></td>
+							</tr>
+							<tr>
+								<th>Groepssessies</th>
+								<td>8 +</td>
+								<td>40u +</td>
+								<td><span>8.0</span></td>
+							</tr>
+							<tr>
+								<th>Peer trajecten</th>
+								<td>25 +</td>
+								<td>20u +</td>
+								<td><span>7,8</span></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</article>
+		</section>
+	</main>
+
+	<footer>
+		<small>Designed / Developed by Ron Bexterman © 2022</small>
+	</footer>
+
+	<script src="./resources/index.js"></script>
+</body>
+
+</html>
